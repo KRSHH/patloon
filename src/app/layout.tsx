@@ -5,47 +5,47 @@ import "./globals.css";
 const josefin_Sans = Bricolage_Grotesque({ subsets: ["latin"], weight: ["400", "600", "800"] });
 
 export const metadata: Metadata = {
-  title: "CodeTorso",
+  title: "CodePatloon",
   description: "Blogs, Socials, and many more",
   openGraph: {
     images: [
       {
-        url: "https://torso.wtf/og-image.png",
+        url: "https://Patloon.wtf/og-image.png",
         width: 2005,
         height: 1103,
-        alt: "torso.wtf banner",
+        alt: "Patloon.wtf banner",
       },
     ],
   },
   metadataBase: {
-    host: "https://torso.wtf",
+    host: "https://Patloon.wtf",
     href: "/",
-    origin: "https://torso.wtf",
-    password: "torso",
-    hash: "torso",
+    origin: "https://Patloon.wtf",
+    password: "Patloon",
+    hash: "Patloon",
     pathname: "/",
     search: "",
-    username: "torso",
-    hostname: "torso.wtf",
+    username: "Patloon",
+    hostname: "Patloon.wtf",
     port: "",
     protocol: "https:",
     searchParams: new URLSearchParams(""),
-    toString: () => "https://torso.wtf/",
-    toJSON: () => "https://torso.wtf/",
+    toString: () => "https://Patloon.wtf/",
+    toJSON: () => "https://Patloon.wtf/",
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://torso.wtf",
-    creator: "https://torso.wtf",
-    title: "@Codetorso's Portfolio",
+    site: "https://Patloon.wtf",
+    creator: "https://Patloon.wtf",
+    title: "@CodePatloon's Portfolio",
     description:
       "Blogs, Socials, and many more.",
     images: [
       {
-        url: "https://torso.wtf/og-image.png",
+        url: "https://Patloon.wtf/og-image.png",
         width: 2005,
         height: 1103,
-        alt: "torso.wtf banner",
+        alt: "Patloon.wtf banner",
       },
     ],
   },

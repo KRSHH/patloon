@@ -17,7 +17,7 @@ function Content() {
         Hey there,
       </h3>
       <h1 className="whitespace-nowrap text-[8vw] font-semibold lg:text-[5vw]">
-        I am @codetorso
+        I am @codePatloon
       </h1>
       <h2 className="text-2xl font-semibold">
         and I love making things that occasionally help people, plus I do some
@@ -54,7 +54,7 @@ function Discord() {
 
 function Github() {
   return (
-    <a target="_blank" href="https://github.com/codetorso">
+    <a target="_blank" href="https://github.com/codePatloon">
       <FaGithub />
     </a>
   );
@@ -64,7 +64,7 @@ function X() {
   return (
     <a
       className="flex items-center gap-1"
-      href="https://x.com/codetorso"
+      href="https://x.com/codePatloon"
       target="_blank"
     >
       <FaTwitter />
@@ -76,7 +76,7 @@ function X() {
 function YouTube() {
   return (
     <a
-      href="https://www.youtube.com/@CodeTorso"
+      href="https://www.youtube.com/@CodePatloon"
       target="_blank"
       className="flex items-center gap-1"
     >
@@ -101,7 +101,7 @@ function Contact() {
       Wanna chat ? send a{" "}
       <a
         className="underline underline-offset-4"
-        href="https://x.com/codetorso"
+        href="https://x.com/codePatloon"
         target="_blank"
       >
         DM
@@ -110,7 +110,7 @@ function Contact() {
       <a
         target="_blank"
         className="underline underline-offset-4"
-        href="mailto:hey@torso.wtf"
+        href="mailto:hey@Patloon.wtf"
       >
         Email.
       </a>

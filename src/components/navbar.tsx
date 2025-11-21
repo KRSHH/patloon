@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="text-xl flex w-full justify-end md:justify-between gap-4 md:gap-8 py-4">
       <Link href="/home">
-        <h1 className="hidden md:block">@CodeTorso/Home</h1><h1 className="block md:hidden">Home</h1>
+        <h1 className="hidden md:block">@CodePatloon/Home</h1><h1 className="block md:hidden">Home</h1>
       </Link>
       <div className="flex">
         <Link href="/work" className="group/link h-8 overflow-hidden px-2 py-1">

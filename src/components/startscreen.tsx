@@ -8,7 +8,7 @@ function Startscreen() {
     <h1
       className={`text-effect overflow-hidden p-2 text-[18vw] md:text-[8vw] italic tracking-normal text-white ${playball.className}`}
     >
-      @CodeTorso
+      @CodePatloon
     </h1>
   </div>
   )

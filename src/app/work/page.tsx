@@ -32,9 +32,9 @@ async function page() {
             <a
               target="_blank"
               className="underline underline-offset-2"
-              href="https://www.torso.wtf"
+              href="https://www.Patloon.wtf"
             >
-              torso.wtf
+              Patloon.wtf
             </a>
             , the site you are looking at :)
           </p>
