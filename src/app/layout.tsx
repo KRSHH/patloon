@@ -13,26 +13,26 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://Patloon.wtf/og-image.png",
+        url: "https://nigga.website/og-image.png",
         width: 2005,
         height: 1103,
-        alt: "Patloon.wtf banner",
+        alt: "nigga.website banner",
       },
     ],
   },
-  metadataBase: new URL("https://Patloon.wtf"), // Simplified metadataBase for Next.js 14
+  metadataBase: new URL("https://nigga.website"), // Simplified metadataBase for Next.js 14
   twitter: {
     card: "summary_large_image",
-    site: "https://Patloon.wtf",
-    creator: "https://Patloon.wtf",
+    site: "https://nigga.website",
+    creator: "https://nigga.website",
     title: "@CodePatloon's Portfolio",
     description: "Blogs, Socials, and many more.",
     images: [
       {
-        url: "https://Patloon.wtf/og-image.png",
+        url: "https://nigga.website/og-image.png",
         width: 2005,
         height: 1103,
-        alt: "Patloon.wtf banner",
+        alt: "nigga.website banner",
       },
     ],
   },
@@ -54,7 +54,7 @@ export default function RootLayout({
           async
           src="https://anna.nigga.website/anna"
           data-website-id="1d9cd7a8-42d3-4f2d-9e6f-aa7516a7d82f"
-          data-domains="Patloon.wtf,anna.nigga.website"
+          data-domains="nigga.website,anna.nigga.website"
           strategy="afterInteractive"
         />
       </head>
