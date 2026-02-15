@@ -52,7 +52,7 @@ export default function RootLayout({
         */}
         <Script
           async
-          src="https://anna.nigga.website/anna.js"
+          src="https://anna.nigga.website/anna"
           data-website-id="1d9cd7a8-42d3-4f2d-9e6f-aa7516a7d82f"
           data-domains="Patloon.wtf,anna.nigga.website"
           strategy="afterInteractive"
