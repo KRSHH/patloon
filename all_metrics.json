@@ -1,0 +1,2321 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-28T20:36:03.368112",
+    "analysis_time_seconds": 3.86,
+    "total_messages": 11788,
+    "date_range": "2025-02-01 to 2026-02-28"
+  },
+  "basic_metrics": {
+    "total_messages": 11788,
+    "messages_per_user": {
+      "codetorso": 6427,
+      "forthatredditguy": 5361
+    },
+    "message_share_pct": {
+      "codetorso": 54.52,
+      "forthatredditguy": 45.48
+    },
+    "total_words": 101469,
+    "words_per_user": {
+      "codetorso": 55467,
+      "forthatredditguy": 46002
+    },
+    "word_share_pct": {
+      "codetorso": 54.66,
+      "forthatredditguy": 45.34
+    },
+    "total_characters": 544866,
+    "characters_per_user": {
+      "codetorso": 292755,
+      "forthatredditguy": 252111
+    },
+    "avg_message_length_words": {
+      "codetorso": 8.63,
+      "forthatredditguy": 8.58,
+      "overall": 8.61
+    },
+    "avg_message_length_chars": {
+      "codetorso": 45.55,
+      "forthatredditguy": 47.03
+    },
+    "median_message_length_words": {
+      "codetorso": 6,
+      "forthatredditguy": 7
+    },
+    "max_message_length_words": {
+      "codetorso": {
+        "words": 268,
+        "date": "2025-06-07 11:52",
+        "preview": "boy wrote all the little school stories\n```\nMathematician: How to write 4 in between a 5?\n\nChina: Is..."
+      },
+      "forthatredditguy": {
+        "words": 312,
+        "date": "2025-03-24 02:57",
+        "preview": "My name is… well, online I'm codetorso. And this… this is my confession. If you're seeing this, my b..."
+      }
+    },
+    "max_message_length_chars": {
+      "codetorso": {
+        "chars": 1510,
+        "date": "2025-06-07 11:52",
+        "preview": "boy wrote all the little school stories\n```\nMathematician: How to write 4 in between a 5?\n\nChina: Is..."
+      },
+      "forthatredditguy": {
+        "chars": 1827,
+        "date": "2025-03-24 02:57",
+        "preview": "My name is… well, online I'm codetorso. And this… this is my confession. If you're seeing this, my b..."
+      }
+    },
+    "long_messages_count": {
+      "codetorso": 113,
+      "forthatredditguy": 62
+    },
+    "short_messages_count": {
+      "codetorso": 869,
+      "forthatredditguy": 821
+    },
+    "one_word_messages": {
+      "codetorso": 672,
+      "forthatredditguy": 724
+    },
+    "empty_messages": {
+      "codetorso": 34,
+      "forthatredditguy": 192
+    },
+    "multiline_messages": {
+      "codetorso": 278,
+      "forthatredditguy": 643
+    },
+    "avg_lines_per_message": {
+      "codetorso": 1.12,
+      "forthatredditguy": 1.2
+    },
+    "stdev_message_length": {
+      "codetorso": 10.66,
+      "forthatredditguy": 11.23
+    },
+    "chat_duration_days": 391,
+    "chat_start_date": "2025-02-01",
+    "chat_end_date": "2026-02-28",
+    "unique_active_days": 190,
+    "msgs_per_active_day": 62.04,
+    "msgs_per_calendar_day": 30.07,
+    "active_days_pct": 48.47,
+    "words_per_active_day": 534.05,
+    "dominance_score": {
+      "score": 0.0904,
+      "dominant_user": "codetorso",
+      "ratio": "6427:5361",
+      "interpretation": "balanced"
+    }
+  },
+  "temporal_metrics": {
+    "most_active_hour": [
+      0,
+      1734
+    ],
+    "hourly_distribution": {
+      "0": 1734,
+      "1": 1337,
+      "2": 786,
+      "3": 416,
+      "4": 302,
+      "5": 101,
+      "6": 84,
+      "7": 239,
+      "8": 65,
+      "9": 69,
+      "10": 241,
+      "11": 396,
+      "12": 276,
+      "13": 201,
+      "14": 430,
+      "15": 349,
+      "16": 362,
+      "17": 152,
+      "18": 404,
+      "19": 669,
+      "20": 561,
+      "21": 366,
+      "22": 1045,
+      "23": 1203
+    },
+    "most_active_hour_per_user": {
+      "codetorso": [
+        0,
+        943
+      ],
+      "forthatredditguy": [
+        0,
+        791
+      ]
+    },
+    "most_active_day_of_week": [
+      "Saturday",
+      2568
+    ],
+    "daily_distribution": {
+      "Monday": 1330,
+      "Tuesday": 1212,
+      "Wednesday": 1228,
+      "Thursday": 1731,
+      "Friday": 1657,
+      "Saturday": 2568,
+      "Sunday": 2062
+    },
+    "most_active_single_day": {
+      "date": "2025-03-02",
+      "message_count": 665
+    },
+    "most_active_month": {
+      "month": "2025-02",
+      "message_count": 3655
+    },
+    "monthly_message_counts": {
+      "2025-02": 3655,
+      "2025-03": 3204,
+      "2025-04": 582,
+      "2025-05": 347,
+      "2025-06": 836,
+      "2025-07": 625,
+      "2025-08": 842,
+      "2025-09": 115,
+      "2025-10": 10,
+      "2025-11": 708,
+      "2025-12": 63,
+      "2026-01": 10,
+      "2026-02": 791
+    },
+    "monthly_trend": [
+      {
+        "month": "2025-02",
+        "count": 3655,
+        "change_pct": 0.0
+      },
+      {
+        "month": "2025-03",
+        "count": 3204,
+        "change_pct": -12.3
+      },
+      {
+        "month": "2025-04",
+        "count": 582,
+        "change_pct": -81.8
+      },
+      {
+        "month": "2025-05",
+        "count": 347,
+        "change_pct": -40.4
+      },
+      {
+        "month": "2025-06",
+        "count": 836,
+        "change_pct": 140.9
+      },
+      {
+        "month": "2025-07",
+        "count": 625,
+        "change_pct": -25.2
+      },
+      {
+        "month": "2025-08",
+        "count": 842,
+        "change_pct": 34.7
+      },
+      {
+        "month": "2025-09",
+        "count": 115,
+        "change_pct": -86.3
+      },
+      {
+        "month": "2025-10",
+        "count": 10,
+        "change_pct": -91.3
+      },
+      {
+        "month": "2025-11",
+        "count": 708,
+        "change_pct": 6980.0
+      },
+      {
+        "month": "2025-12",
+        "count": 63,
+        "change_pct": -91.1
+      },
+      {
+        "month": "2026-01",
+        "count": 10,
+        "change_pct": -84.1
+      },
+      {
+        "month": "2026-02",
+        "count": 791,
+        "change_pct": 7810.0
+      }
+    ],
+    "weekend_vs_weekday": {
+      "weekend_messages": 4630,
+      "weekday_messages": 7158,
+      "weekend_pct": 39.28,
+      "weekday_pct": 60.72,
+      "weekend_avg_per_day": 82.68,
+      "weekday_avg_per_day": 53.42
+    },
+    "night_owl_score": {
+      "codetorso": {
+        "count": 2529,
+        "pct": 39.35
+      },
+      "forthatredditguy": {
+        "count": 2147,
+        "pct": 40.05
+      }
+    },
+    "late_night_messages": {
+      "codetorso": 2316,
+      "forthatredditguy": 1957
+    },
+    "time_window_distribution": {
+      "00:00-03:00": 3857,
+      "03:00-06:00": 819,
+      "06:00-09:00": 388,
+      "09:00-12:00": 706,
+      "12:00-15:00": 907,
+      "15:00-18:00": 863,
+      "18:00-21:00": 1634,
+      "21:00-00:00": 2614
+    },
+    "peak_time_window": "00:00-03:00",
+    "longest_streak": {
+      "days": 13,
+      "start": "2025-02-21",
+      "end": "2025-03-05"
+    },
+    "longest_gap": {
+      "duration_hours": 594.29,
+      "duration_days": 24.76,
+      "from": "2025-05-08 16:57",
+      "to": "2025-06-02 11:14",
+      "who_broke_silence": "codetorso"
+    },
+    "avg_gap_seconds": 2873.24,
+    "avg_gap_minutes": 47.89,
+    "median_gap_seconds": 24.89,
+    "median_gap_minutes": 0.41,
+    "daily_initiator": {
+      "codetorso": 89,
+      "forthatredditguy": 101
+    },
+    "daily_closer": {
+      "codetorso": 74,
+      "forthatredditguy": 116
+    },
+    "avg_session_duration_minutes": 34.43,
+    "median_session_duration_minutes": 13.01,
+    "max_session_duration_minutes": 268.06,
+    "total_sessions": 477,
+    "avg_messages_per_session": 24.71,
+    "median_messages_per_session": 2,
+    "max_messages_per_session": 542,
+    "activity_heatmap": {
+      "Saturday_20": 81,
+      "Saturday_21": 127,
+      "Saturday_22": 315,
+      "Saturday_23": 206,
+      "Sunday_0": 223,
+      "Sunday_23": 318,
+      "Monday_0": 499,
+      "Monday_1": 309,
+      "Monday_2": 256,
+      "Monday_17": 4,
+      "Monday_21": 40,
+      "Monday_22": 67,
+      "Monday_23": 43,
+      "Tuesday_0": 180,
+      "Tuesday_1": 168,
+      "Tuesday_4": 30,
+      "Tuesday_15": 91,
+      "Tuesday_23": 151,
+      "Wednesday_2": 15,
+      "Wednesday_9": 1,
+      "Wednesday_17": 6,
+      "Thursday_22": 181,
+      "Thursday_23": 321,
+      "Friday_0": 347,
+      "Friday_1": 224,
+      "Friday_2": 68,
+      "Friday_18": 12,
+      "Friday_20": 178,
+      "Friday_21": 39,
+      "Friday_22": 155,
+      "Friday_23": 50,
+      "Saturday_2": 249,
+      "Saturday_10": 92,
+      "Saturday_11": 225,
+      "Saturday_12": 156,
+      "Saturday_13": 18,
+      "Sunday_8": 33,
+      "Sunday_9": 11,
+      "Sunday_10": 38,
+      "Wednesday_1": 119,
+      "Wednesday_20": 18,
+      "Wednesday_21": 14,
+      "Thursday_9": 3,
+      "Thursday_10": 4,
+      "Thursday_12": 5,
+      "Thursday_13": 75,
+      "Thursday_14": 128,
+      "Thursday_15": 15,
+      "Friday_9": 36,
+      "Friday_19": 136,
+      "Saturday_15": 69,
+      "Saturday_17": 15,
+      "Saturday_18": 186,
+      "Friday_10": 57,
+      "Friday_13": 8,
+      "Saturday_19": 72,
+      "Sunday_4": 60,
+      "Sunday_5": 2,
+      "Sunday_16": 95,
+      "Sunday_17": 90,
+      "Sunday_18": 56,
+      "Sunday_19": 180,
+      "Sunday_20": 177,
+      "Sunday_21": 55,
+      "Tuesday_11": 37,
+      "Tuesday_12": 73,
+      "Wednesday_0": 77,
+      "Wednesday_12": 20,
+      "Wednesday_13": 74,
+      "Wednesday_14": 126,
+      "Wednesday_15": 65,
+      "Wednesday_16": 68,
+      "Wednesday_19": 96,
+      "Thursday_18": 38,
+      "Thursday_19": 120,
+      "Thursday_20": 89,
+      "Friday_7": 17,
+      "Friday_8": 17,
+      "Friday_11": 12,
+      "Friday_17": 35,
+      "Saturday_14": 5,
+      "Saturday_16": 134,
+      "Sunday_1": 226,
+      "Sunday_2": 98,
+      "Sunday_3": 120,
+      "Sunday_7": 85,
+      "Sunday_22": 131,
+      "Tuesday_5": 11,
+      "Tuesday_17": 1,
+      "Tuesday_18": 6,
+      "Wednesday_3": 97,
+      "Wednesday_4": 32,
+      "Wednesday_11": 99,
+      "Friday_14": 47,
+      "Friday_15": 107,
+      "Friday_16": 53,
+      "Sunday_11": 6,
+      "Monday_8": 2,
+      "Monday_11": 15,
+      "Monday_12": 2,
+      "Tuesday_13": 21,
+      "Tuesday_14": 75,
+      "Tuesday_20": 15,
+      "Wednesday_10": 50,
+      "Wednesday_18": 105,
+      "Thursday_21": 72,
+      "Saturday_1": 100,
+      "Wednesday_8": 3,
+      "Wednesday_22": 25,
+      "Wednesday_23": 114,
+      "Thursday_0": 273,
+      "Thursday_1": 191,
+      "Thursday_2": 98,
+      "Monday_3": 38,
+      "Monday_16": 3,
+      "Saturday_9": 2,
+      "Saturday_0": 135,
+      "Saturday_3": 132,
+      "Thursday_17": 1,
+      "Wednesday_5": 2,
+      "Tuesday_21": 19,
+      "Thursday_3": 2,
+      "Thursday_16": 8,
+      "Tuesday_9": 16,
+      "Tuesday_19": 24,
+      "Thursday_4": 6,
+      "Tuesday_16": 1,
+      "Saturday_4": 165,
+      "Saturday_5": 40,
+      "Sunday_6": 2,
+      "Sunday_14": 48,
+      "Tuesday_22": 171,
+      "Tuesday_2": 2,
+      "Saturday_6": 33,
+      "Saturday_7": 7,
+      "Monday_7": 2,
+      "Monday_14": 1,
+      "Monday_19": 41,
+      "Monday_20": 3,
+      "Thursday_5": 45,
+      "Thursday_6": 38,
+      "Friday_3": 27,
+      "Friday_4": 8,
+      "Saturday_8": 4,
+      "Tuesday_6": 2,
+      "Tuesday_7": 114,
+      "Tuesday_8": 4,
+      "Thursday_7": 14,
+      "Thursday_8": 2,
+      "Thursday_11": 2,
+      "Sunday_12": 4,
+      "Wednesday_6": 2,
+      "Friday_12": 16,
+      "Sunday_15": 2,
+      "Friday_5": 1,
+      "Sunday_13": 2,
+      "Monday_13": 3,
+      "Monday_4": 1,
+      "Monday_18": 1,
+      "Friday_6": 7
+    },
+    "monthly_activity_per_user": {
+      "codetorso": {
+        "2025-02": 2008,
+        "2025-03": 1720,
+        "2025-04": 316,
+        "2025-05": 189,
+        "2025-06": 457,
+        "2025-07": 337,
+        "2025-08": 465,
+        "2025-09": 70,
+        "2025-10": 5,
+        "2025-11": 391,
+        "2025-12": 27,
+        "2026-01": 4,
+        "2026-02": 438
+      },
+      "forthatredditguy": {
+        "2025-02": 1647,
+        "2025-03": 1484,
+        "2025-04": 266,
+        "2025-05": 158,
+        "2025-06": 379,
+        "2025-07": 288,
+        "2025-08": 377,
+        "2025-09": 45,
+        "2025-10": 5,
+        "2025-11": 317,
+        "2025-12": 36,
+        "2026-01": 6,
+        "2026-02": 353
+      }
+    },
+    "weekly_counts": {
+      "2025-W05": 572,
+      "2025-W06": 1553,
+      "2025-W07": 304,
+      "2025-W08": 606,
+      "2025-W09": 1386,
+      "2025-W10": 378,
+      "2025-W11": 927,
+      "2025-W12": 870,
+      "2025-W13": 263,
+      "2025-W14": 1,
+      "2025-W15": 392,
+      "2025-W16": 71,
+      "2025-W17": 118,
+      "2025-W18": 288,
+      "2025-W19": 59,
+      "2025-W23": 443,
+      "2025-W24": 2,
+      "2025-W25": 177,
+      "2025-W26": 213,
+      "2025-W27": 124,
+      "2025-W28": 96,
+      "2025-W29": 311,
+      "2025-W30": 91,
+      "2025-W31": 4,
+      "2025-W32": 109,
+      "2025-W33": 448,
+      "2025-W34": 208,
+      "2025-W35": 77,
+      "2025-W36": 67,
+      "2025-W37": 19,
+      "2025-W38": 29,
+      "2025-W41": 2,
+      "2025-W42": 3,
+      "2025-W43": 1,
+      "2025-W44": 4,
+      "2025-W45": 165,
+      "2025-W46": 11,
+      "2025-W47": 355,
+      "2025-W48": 177,
+      "2025-W49": 59,
+      "2025-W51": 4,
+      "2026-W01": 3,
+      "2026-W02": 3,
+      "2026-W03": 1,
+      "2026-W04": 1,
+      "2026-W05": 7,
+      "2026-W06": 124,
+      "2026-W07": 79,
+      "2026-W08": 5,
+      "2026-W09": 578
+    },
+    "most_active_week": {
+      "week": "2025-W06",
+      "count": 1553
+    },
+    "dead_days_count": 203,
+    "dead_days_pct": 51.65,
+    "quarterly_activity": {
+      "2025-Q1": 6859,
+      "2025-Q2": 1765,
+      "2025-Q3": 1582,
+      "2025-Q4": 781,
+      "2026-Q1": 801
+    },
+    "avg_daily_convo_span_hours": 10.77,
+    "max_daily_convo_span": {
+      "date": "2025-02-03",
+      "span_hours": 23.99
+    },
+    "codetorso_time_personality": {
+      "morning_pct": 9.3,
+      "afternoon_pct": 14.7,
+      "evening_pct": 36.6,
+      "night_pct": 39.3,
+      "type": "night"
+    },
+    "forthatredditguy_time_personality": {
+      "morning_pct": 9.2,
+      "afternoon_pct": 15.4,
+      "evening_pct": 35.4,
+      "night_pct": 40.0,
+      "type": "night"
+    },
+    "hourly_per_user": {
+      "codetorso": {
+        "0": 943,
+        "1": 757,
+        "2": 401,
+        "3": 215,
+        "4": 157,
+        "5": 56,
+        "6": 42,
+        "7": 158,
+        "8": 31,
+        "9": 35,
+        "10": 138,
+        "11": 195,
+        "12": 131,
+        "13": 102,
+        "14": 255,
+        "15": 178,
+        "16": 194,
+        "17": 87,
+        "18": 216,
+        "19": 369,
+        "20": 291,
+        "21": 195,
+        "22": 595,
+        "23": 686
+      },
+      "forthatredditguy": {
+        "0": 791,
+        "1": 580,
+        "2": 385,
+        "3": 201,
+        "4": 145,
+        "5": 45,
+        "6": 42,
+        "7": 81,
+        "8": 34,
+        "9": 34,
+        "10": 103,
+        "11": 201,
+        "12": 145,
+        "13": 99,
+        "14": 175,
+        "15": 171,
+        "16": 168,
+        "17": 65,
+        "18": 188,
+        "19": 300,
+        "20": 270,
+        "21": 171,
+        "22": 450,
+        "23": 517
+      }
+    }
+  },
+  "text_metrics": {
+    "top_30_words_overall": [
+      [
+        "like",
+        667
+      ],
+      [
+        "dont",
+        485
+      ],
+      [
+        "even",
+        434
+      ],
+      [
+        "get",
+        430
+      ],
+      [
+        "one",
+        415
+      ],
+      [
+        "yeah",
+        328
+      ],
+      [
+        "think",
+        305
+      ],
+      [
+        "know",
+        297
+      ],
+      [
+        "good",
+        292
+      ],
+      [
+        "people",
+        280
+      ],
+      [
+        "lol",
+        266
+      ],
+      [
+        "got",
+        265
+      ],
+      [
+        "time",
+        240
+      ],
+      [
+        "go",
+        203
+      ],
+      [
+        "also",
+        199
+      ],
+      [
+        "something",
+        197
+      ],
+      [
+        "make",
+        194
+      ],
+      [
+        "need",
+        183
+      ],
+      [
+        "much",
+        182
+      ],
+      [
+        "any",
+        180
+      ],
+      [
+        "thats",
+        180
+      ],
+      [
+        "still",
+        176
+      ],
+      [
+        "see",
+        174
+      ],
+      [
+        "thing",
+        173
+      ],
+      [
+        "shit",
+        170
+      ],
+      [
+        "well",
+        161
+      ],
+      [
+        "work",
+        157
+      ],
+      [
+        "guy",
+        157
+      ],
+      [
+        "bro",
+        156
+      ],
+      [
+        "want",
+        155
+      ]
+    ],
+    "top_20_words_per_user": {
+      "codetorso": [
+        [
+          "like",
+          441
+        ],
+        [
+          "get",
+          296
+        ],
+        [
+          "one",
+          263
+        ],
+        [
+          "dont",
+          234
+        ],
+        [
+          "even",
+          233
+        ],
+        [
+          "yeah",
+          206
+        ],
+        [
+          "good",
+          203
+        ],
+        [
+          "think",
+          189
+        ],
+        [
+          "know",
+          168
+        ],
+        [
+          "also",
+          166
+        ],
+        [
+          "time",
+          158
+        ],
+        [
+          "got",
+          157
+        ],
+        [
+          "people",
+          148
+        ],
+        [
+          "need",
+          146
+        ],
+        [
+          "something",
+          136
+        ],
+        [
+          "see",
+          125
+        ],
+        [
+          "want",
+          123
+        ],
+        [
+          "go",
+          119
+        ],
+        [
+          "going",
+          114
+        ],
+        [
+          "bro",
+          114
+        ]
+      ],
+      "forthatredditguy": [
+        [
+          "dont",
+          251
+        ],
+        [
+          "like",
+          226
+        ],
+        [
+          "lol",
+          210
+        ],
+        [
+          "even",
+          201
+        ],
+        [
+          "one",
+          152
+        ],
+        [
+          "yup",
+          137
+        ],
+        [
+          "get",
+          134
+        ],
+        [
+          "people",
+          132
+        ],
+        [
+          "know",
+          129
+        ],
+        [
+          "yeah",
+          122
+        ],
+        [
+          "thats",
+          119
+        ],
+        [
+          "think",
+          116
+        ],
+        [
+          "shit",
+          109
+        ],
+        [
+          "any",
+          108
+        ],
+        [
+          "got",
+          108
+        ],
+        [
+          "way",
+          101
+        ],
+        [
+          "make",
+          95
+        ],
+        [
+          "didnt",
+          93
+        ],
+        [
+          "much",
+          92
+        ],
+        [
+          "good",
+          89
+        ]
+      ]
+    },
+    "unique_words_per_user": {
+      "codetorso": 5446,
+      "forthatredditguy": 6639
+    },
+    "vocabulary_richness": {
+      "codetorso": 0.0995,
+      "forthatredditguy": 0.1476
+    },
+    "hapax_legomena": {
+      "codetorso": {
+        "count": 2684,
+        "pct_of_unique": 49.28
+      },
+      "forthatredditguy": {
+        "count": 3784,
+        "pct_of_unique": 57.0
+      }
+    },
+    "avg_word_length": {
+      "codetorso": 4.06,
+      "forthatredditguy": 4.23
+    },
+    "sentiment_score": {
+      "codetorso": {
+        "positive_words": 591,
+        "negative_words": 307,
+        "score": 0.3163,
+        "label": "positive"
+      },
+      "forthatredditguy": {
+        "positive_words": 372,
+        "negative_words": 373,
+        "score": -0.0013,
+        "label": "neutral"
+      }
+    },
+    "monthly_sentiment": {
+      "codetorso": {
+        "2025-02": 0.389,
+        "2025-03": 0.357,
+        "2025-04": 0.312,
+        "2025-05": 0.647,
+        "2025-06": 0.283,
+        "2025-07": 0.385,
+        "2025-08": 0.545,
+        "2025-09": 0.545,
+        "2025-10": 1.0,
+        "2025-11": 0.167,
+        "2025-12": 0.333,
+        "2026-01": 1.0,
+        "2026-02": -0.026
+      },
+      "forthatredditguy": {
+        "2025-02": 0.016,
+        "2025-03": 0.019,
+        "2025-04": 0.333,
+        "2025-05": -0.231,
+        "2025-06": -0.222,
+        "2025-07": -0.333,
+        "2025-08": 0.086,
+        "2025-09": 0.455,
+        "2025-10": 0.0,
+        "2025-11": 0.037,
+        "2025-12": 0.0,
+        "2026-01": 0.0,
+        "2026-02": -0.038
+      }
+    },
+    "question_count": {
+      "codetorso": 1177,
+      "forthatredditguy": 766
+    },
+    "question_pct": {
+      "codetorso": 18.31,
+      "forthatredditguy": 14.29
+    },
+    "slang_usage": {
+      "codetorso": {
+        "total": 1091,
+        "per_message": 0.17,
+        "top_slang": [
+          [
+            "yeah",
+            206
+          ],
+          [
+            "bro",
+            114
+          ],
+          [
+            "idk",
+            80
+          ],
+          [
+            "man",
+            73
+          ],
+          [
+            "ig",
+            61
+          ],
+          [
+            "nah",
+            56
+          ],
+          [
+            "lol",
+            56
+          ],
+          [
+            "haha",
+            43
+          ],
+          [
+            "gonna",
+            42
+          ],
+          [
+            "rn",
+            40
+          ]
+        ]
+      },
+      "forthatredditguy": {
+        "total": 1361,
+        "per_message": 0.254,
+        "top_slang": [
+          [
+            "lol",
+            210
+          ],
+          [
+            "yup",
+            137
+          ],
+          [
+            "yeah",
+            122
+          ],
+          [
+            "wanna",
+            87
+          ],
+          [
+            "gonna",
+            84
+          ],
+          [
+            "nah",
+            67
+          ],
+          [
+            "haha",
+            64
+          ],
+          [
+            "btw",
+            62
+          ],
+          [
+            "idk",
+            56
+          ],
+          [
+            "dude",
+            47
+          ]
+        ]
+      }
+    },
+    "profanity_usage": {
+      "codetorso": {
+        "total": 184,
+        "per_message": 0.029,
+        "pct_of_messages": 2.77,
+        "top_profanity": [
+          [
+            "shit",
+            61
+          ],
+          [
+            "wtf",
+            39
+          ],
+          [
+            "fucking",
+            24
+          ],
+          [
+            "fuck",
+            17
+          ],
+          [
+            "hell",
+            11
+          ],
+          [
+            "damn",
+            8
+          ],
+          [
+            "ass",
+            7
+          ],
+          [
+            "dumb",
+            4
+          ],
+          [
+            "bullshit",
+            4
+          ],
+          [
+            "stupid",
+            3
+          ]
+        ]
+      },
+      "forthatredditguy": {
+        "total": 340,
+        "per_message": 0.063,
+        "pct_of_messages": 5.65,
+        "top_profanity": [
+          [
+            "shit",
+            109
+          ],
+          [
+            "wtf",
+            38
+          ],
+          [
+            "retarded",
+            31
+          ],
+          [
+            "fucking",
+            31
+          ],
+          [
+            "damn",
+            31
+          ],
+          [
+            "fuck",
+            26
+          ],
+          [
+            "ass",
+            18
+          ],
+          [
+            "hell",
+            15
+          ],
+          [
+            "stupid",
+            10
+          ],
+          [
+            "crap",
+            7
+          ]
+        ]
+      }
+    },
+    "topic_distribution": {
+      "codetorso": {
+        "money_finance": {
+          "count": 395,
+          "pct": 17.82
+        },
+        "career_ambition": {
+          "count": 383,
+          "pct": 17.28
+        },
+        "education": {
+          "count": 357,
+          "pct": 16.11
+        },
+        "personal_life": {
+          "count": 338,
+          "pct": 15.25
+        },
+        "programming": {
+          "count": 310,
+          "pct": 13.99
+        },
+        "india_politics": {
+          "count": 242,
+          "pct": 10.92
+        },
+        "tech_industry": {
+          "count": 191,
+          "pct": 8.62
+        }
+      },
+      "forthatredditguy": {
+        "career_ambition": {
+          "count": 278,
+          "pct": 17.89
+        },
+        "personal_life": {
+          "count": 274,
+          "pct": 17.63
+        },
+        "money_finance": {
+          "count": 253,
+          "pct": 16.28
+        },
+        "programming": {
+          "count": 244,
+          "pct": 15.7
+        },
+        "education": {
+          "count": 244,
+          "pct": 15.7
+        },
+        "india_politics": {
+          "count": 143,
+          "pct": 9.2
+        },
+        "tech_industry": {
+          "count": 118,
+          "pct": 7.59
+        }
+      }
+    },
+    "capitalization": {
+      "codetorso": {
+        "all_caps_messages": 11,
+        "starts_with_capital": 834,
+        "all_lowercase": 4366,
+        "all_lowercase_pct": 67.93
+      },
+      "forthatredditguy": {
+        "all_caps_messages": 5,
+        "starts_with_capital": 3226,
+        "all_lowercase": 1407,
+        "all_lowercase_pct": 26.25
+      }
+    },
+    "punctuation": {
+      "codetorso": {
+        "exclamation_marks": 58,
+        "question_marks": 1385,
+        "ellipsis": 33,
+        "periods": 678,
+        "exclamation_per_msg": 0.009
+      },
+      "forthatredditguy": {
+        "exclamation_marks": 101,
+        "question_marks": 974,
+        "ellipsis": 402,
+        "periods": 1605,
+        "exclamation_per_msg": 0.019
+      }
+    },
+    "laughter_frequency": {
+      "codetorso": {
+        "count": 263,
+        "per_message": 0.041
+      },
+      "forthatredditguy": {
+        "count": 368,
+        "per_message": 0.069
+      }
+    },
+    "pronoun_usage": {
+      "codetorso": {
+        "i_count": 1949,
+        "you_count": 1138,
+        "we_count": 162,
+        "i_vs_you_ratio": 1.71,
+        "focus": "self-focused"
+      },
+      "forthatredditguy": {
+        "i_count": 1955,
+        "you_count": 653,
+        "we_count": 119,
+        "i_vs_you_ratio": 2.99,
+        "focus": "self-focused"
+      }
+    },
+    "message_complexity": {
+      "codetorso": {
+        "flesch_score": 78.18,
+        "avg_sentence_length": 7.9,
+        "interpretation": "easy"
+      },
+      "forthatredditguy": {
+        "flesch_score": 75.23,
+        "avg_sentence_length": 6.51,
+        "interpretation": "easy"
+      }
+    },
+    "signature_phrases": {
+      "codetorso": {
+        "top_bigrams": [
+          [
+            "i am",
+            264
+          ],
+          [
+            "i have",
+            119
+          ],
+          [
+            "i will",
+            113
+          ],
+          [
+            "i dont",
+            111
+          ],
+          [
+            "i was",
+            106
+          ],
+          [
+            "a lot",
+            102
+          ],
+          [
+            "you are",
+            101
+          ],
+          [
+            "need to",
+            101
+          ],
+          [
+            "it was",
+            90
+          ],
+          [
+            "want to",
+            84
+          ],
+          [
+            "do you",
+            82
+          ],
+          [
+            "to get",
+            81
+          ],
+          [
+            "will be",
+            81
+          ],
+          [
+            "if you",
+            78
+          ],
+          [
+            "but i",
+            75
+          ]
+        ],
+        "top_trigrams": [
+          [
+            "a lot of",
+            52
+          ],
+          [
+            "i want to",
+            31
+          ],
+          [
+            "i dont think",
+            28
+          ],
+          [
+            "i need to",
+            27
+          ],
+          [
+            "i am not",
+            25
+          ],
+          [
+            "i am just",
+            25
+          ],
+          [
+            "i think i",
+            25
+          ],
+          [
+            "i did not",
+            24
+          ],
+          [
+            "i used to",
+            22
+          ],
+          [
+            "do you think",
+            20
+          ]
+        ]
+      },
+      "forthatredditguy": {
+        "top_bigrams": [
+          [
+            "i am",
+            274
+          ],
+          [
+            "i dont",
+            121
+          ],
+          [
+            "i was",
+            105
+          ],
+          [
+            "do you",
+            89
+          ],
+          [
+            "i have",
+            75
+          ],
+          [
+            "in the",
+            70
+          ],
+          [
+            "of the",
+            66
+          ],
+          [
+            "in a",
+            56
+          ],
+          [
+            "that i",
+            56
+          ],
+          [
+            "are you",
+            53
+          ],
+          [
+            "but i",
+            52
+          ],
+          [
+            "and then",
+            50
+          ],
+          [
+            "i just",
+            49
+          ],
+          [
+            "it was",
+            47
+          ],
+          [
+            "thats why",
+            46
+          ]
+        ],
+        "top_trigrams": [
+          [
+            "thats why i",
+            29
+          ],
+          [
+            "do you think",
+            29
+          ],
+          [
+            "i am not",
+            22
+          ],
+          [
+            "i dont know",
+            20
+          ],
+          [
+            "what do you",
+            20
+          ],
+          [
+            "i am gonna",
+            18
+          ],
+          [
+            "i used to",
+            17
+          ],
+          [
+            "what are you",
+            16
+          ],
+          [
+            "i dont think",
+            15
+          ],
+          [
+            "when i was",
+            15
+          ]
+        ]
+      }
+    },
+    "exclusive_vocabulary": {
+      "codetorso": {
+        "count": 2310,
+        "examples": [
+          "000045",
+          "1000cr",
+          "1000of",
+          "1000s",
+          "100200",
+          "100b",
+          "100cr",
+          "100m",
+          "100mn",
+          "100ms",
+          "100pages",
+          "100s",
+          "1015k",
+          "1020l",
+          "10395",
+          "108l",
+          "10m",
+          "10mb",
+          "10min",
+          "10x",
+          "110",
+          "1112",
+          "112",
+          "112l",
+          "1199l",
+          "11l",
+          "120",
+          "1200rs",
+          "121",
+          "125"
+        ]
+      },
+      "forthatredditguy": {
+        "count": 3493,
+        "examples": [
+          "0330",
+          "0x820785dfb031919434faa2ca3c36a1dbff693484",
+          "100100",
+          "100th",
+          "100x",
+          "100yr",
+          "1010",
+          "1015hrs",
+          "102",
+          "10819",
+          "109303",
+          "10gb",
+          "10hrs",
+          "10yrs",
+          "11089",
+          "11432419",
+          "11461",
+          "11678",
+          "11labs",
+          "120kyr",
+          "1215",
+          "1216",
+          "1217",
+          "1245",
+          "12509",
+          "12842",
+          "12915",
+          "12gb",
+          "1300",
+          "131400"
+        ]
+      },
+      "shared_vocabulary": 2903,
+      "jaccard_similarity": 0.3334
+    },
+    "vocabulary_growth": {
+      "codetorso": {
+        "2025-02": 2561,
+        "2025-03": 3529,
+        "2025-04": 3686,
+        "2025-05": 3773,
+        "2025-06": 4086,
+        "2025-07": 4358,
+        "2025-08": 4614,
+        "2025-09": 4664,
+        "2025-10": 4665,
+        "2025-11": 5073,
+        "2025-12": 5084,
+        "2026-01": 5087,
+        "2026-02": 5446
+      },
+      "forthatredditguy": {
+        "2025-02": 2887,
+        "2025-03": 4416,
+        "2025-04": 4619,
+        "2025-05": 4748,
+        "2025-06": 5056,
+        "2025-07": 5309,
+        "2025-08": 5740,
+        "2025-09": 5784,
+        "2025-10": 5788,
+        "2025-11": 6127,
+        "2025-12": 6162,
+        "2026-01": 6166,
+        "2026-02": 6639
+      }
+    },
+    "formality_score": {
+      "codetorso": {
+        "formal_words": 22,
+        "informal_words": 965,
+        "score": -0.9554,
+        "label": "informal"
+      },
+      "forthatredditguy": {
+        "formal_words": 17,
+        "informal_words": 1237,
+        "score": -0.9729,
+        "label": "informal"
+      }
+    }
+  },
+  "conversation_metrics": {
+    "response_time": {
+      "forthatredditguy": {
+        "avg_seconds": 56.78,
+        "avg_minutes": 0.95,
+        "median_seconds": 30.03,
+        "median_minutes": 0.5,
+        "min_seconds": 0.0,
+        "max_seconds": 1696.75,
+        "max_minutes": 28.28,
+        "total_responses": 3178,
+        "under_10s": 544,
+        "under_30s": 1589,
+        "under_1min": 2454,
+        "under_5min": 3107
+      },
+      "codetorso": {
+        "avg_seconds": 58.7,
+        "avg_minutes": 0.98,
+        "median_seconds": 29.67,
+        "median_minutes": 0.49,
+        "min_seconds": 0.04,
+        "max_seconds": 1783.03,
+        "max_minutes": 29.72,
+        "total_responses": 3194,
+        "under_10s": 478,
+        "under_30s": 1614,
+        "under_1min": 2478,
+        "under_5min": 3123
+      }
+    },
+    "session_initiator": {
+      "codetorso": 204,
+      "forthatredditguy": 273
+    },
+    "session_initiator_pct": {
+      "codetorso": 42.77,
+      "forthatredditguy": 57.23
+    },
+    "session_ender": {
+      "forthatredditguy": 257,
+      "codetorso": 220
+    },
+    "turn_taking": {
+      "total_turns": 6711,
+      "turn_rate": 0.5694,
+      "avg_consecutive_per_user": {
+        "codetorso": 1.92,
+        "forthatredditguy": 1.6
+      },
+      "max_consecutive_per_user": {
+        "codetorso": 16,
+        "forthatredditguy": 8
+      },
+      "median_consecutive_per_user": {
+        "codetorso": 1.0,
+        "forthatredditguy": 1.0
+      }
+    },
+    "monologues": {
+      "codetorso": {
+        "count": 160,
+        "avg_length": 6.28,
+        "max_length": 16,
+        "total_messages_in_monologues": 1005
+      },
+      "forthatredditguy": {
+        "count": 38,
+        "avg_length": 5.61,
+        "max_length": 8,
+        "total_messages_in_monologues": 213
+      }
+    },
+    "burst_messaging": {
+      "codetorso": {
+        "burst_count": 352,
+        "avg_burst_length": 3.58,
+        "max_burst_length": 12,
+        "total_burst_messages": 1261
+      },
+      "forthatredditguy": {
+        "burst_count": 93,
+        "avg_burst_length": 3.31,
+        "max_burst_length": 7,
+        "total_burst_messages": 308
+      }
+    },
+    "double_texting": {
+      "codetorso": 834,
+      "forthatredditguy": 982
+    },
+    "triple_texting": {
+      "codetorso": 765,
+      "forthatredditguy": 424
+    },
+    "engagement_score": {
+      "codetorso": {
+        "composite": 0.7681,
+        "response_factor": 0.9022,
+        "length_factor": 0.4315,
+        "question_factor": 0.9258
+      },
+      "forthatredditguy": {
+        "composite": 0.7217,
+        "response_factor": 0.9054,
+        "length_factor": 0.429,
+        "question_factor": 0.7694
+      }
+    },
+    "session_depth": {
+      "shallow_sessions_lt10": 364,
+      "medium_sessions_10_50": 44,
+      "deep_sessions_50plus": 69,
+      "marathon_sessions_200plus": 11
+    },
+    "echo_mimicry": {
+      "codetorso": {
+        "echo_messages": 860,
+        "echo_rate": 0.1338
+      },
+      "forthatredditguy": {
+        "echo_messages": 794,
+        "echo_rate": 0.1481
+      }
+    },
+    "greetings": {
+      "codetorso": {
+        "greetings": 32,
+        "goodbyes": 162
+      },
+      "forthatredditguy": {
+        "greetings": 12,
+        "goodbyes": 123
+      }
+    },
+    "link_sharing": {
+      "codetorso": {
+        "total_links": 194,
+        "links_per_msg": 0.0302
+      },
+      "forthatredditguy": {
+        "total_links": 196,
+        "links_per_msg": 0.0366
+      }
+    },
+    "attachment_sharing": {
+      "codetorso": {
+        "total_attachments": 171,
+        "msgs_with_attachments": 170,
+        "attachment_rate": 0.0265
+      },
+      "forthatredditguy": {
+        "total_attachments": 443,
+        "msgs_with_attachments": 425,
+        "attachment_rate": 0.0793
+      }
+    },
+    "reactions_received": {
+      "forthatredditguy": 63,
+      "codetorso": 139
+    },
+    "pinned_messages": {
+      "codetorso": 5,
+      "forthatredditguy": 1
+    }
+  },
+  "behavioral_metrics": {
+    "ghost_events": {
+      "forthatredditguy": {
+        "times_ghosted_other": 77,
+        "avg_ghost_hours": 21.5,
+        "max_ghost_hours": 167.2,
+        "worst_ghosts": [
+          {
+            "gap_hours": 167.2,
+            "date": "2025-10-30",
+            "ghosted_by": "codetorso",
+            "last_msg_preview": "10k downloads thats kinda amazing"
+          },
+          {
+            "gap_hours": 165.7,
+            "date": "2025-06-10",
+            "ghosted_by": "codetorso",
+            "last_msg_preview": "https://tenor.com/view/blackbeard-blackbeard-writing-taking-"
+          },
+          {
+            "gap_hours": 112.4,
+            "date": "2026-01-22",
+            "ghosted_by": "codetorso",
+            "last_msg_preview": "man I got so much to tell, but I got like no time, this fuck"
+          },
+          {
+            "gap_hours": 86.2,
+            "date": "2025-04-07",
+            "ghosted_by": "codetorso",
+            "last_msg_preview": "was out on a little trip"
+          },
+          {
+            "gap_hours": 83.3,
+            "date": "2025-03-30",
+            "ghosted_by": "codetorso",
+            "last_msg_preview": "what do you think? what are these ghibli generator apps usin"
+          }
+        ]
+      },
+      "codetorso": {
+        "times_ghosted_other": 82,
+        "avg_ghost_hours": 51.9,
+        "max_ghost_hours": 594.3,
+        "worst_ghosts": [
+          {
+            "gap_hours": 594.3,
+            "date": "2025-05-08",
+            "ghosted_by": "forthatredditguy",
+            "last_msg_preview": "(From me too)"
+          },
+          {
+            "gap_hours": 477.8,
+            "date": "2025-09-20",
+            "ghosted_by": "forthatredditguy",
+            "last_msg_preview": "So what are you upto?"
+          },
+          {
+            "gap_hours": 258.5,
+            "date": "2026-01-12",
+            "ghosted_by": "forthatredditguy",
+            "last_msg_preview": "Why do I only post bangers on my alts 😭\n\nhttps://x.com/i/sta"
+          },
+          {
+            "gap_hours": 206.1,
+            "date": "2026-02-13",
+            "ghosted_by": "forthatredditguy",
+            "last_msg_preview": "I feel like a yogi in bramha loka when I watch YouTube long "
+          },
+          {
+            "gap_hours": 195.0,
+            "date": "2025-12-07",
+            "ghosted_by": "forthatredditguy",
+            "last_msg_preview": "Bro's locked tf in."
+          }
+        ]
+      }
+    },
+    "comeback_initiator": {
+      "forthatredditguy": 156,
+      "codetorso": 117
+    },
+    "frequency_evolution": {
+      "codetorso": {
+        "2025-02": 2008,
+        "2025-03": 1720,
+        "2025-04": 316,
+        "2025-05": 189,
+        "2025-06": 457,
+        "2025-07": 337,
+        "2025-08": 465,
+        "2025-09": 70,
+        "2025-10": 5,
+        "2025-11": 391,
+        "2025-12": 27,
+        "2026-01": 4,
+        "2026-02": 438
+      },
+      "forthatredditguy": {
+        "2025-02": 1647,
+        "2025-03": 1484,
+        "2025-04": 266,
+        "2025-05": 158,
+        "2025-06": 379,
+        "2025-07": 288,
+        "2025-08": 377,
+        "2025-09": 45,
+        "2025-10": 5,
+        "2025-11": 317,
+        "2025-12": 36,
+        "2026-01": 6,
+        "2026-02": 353
+      }
+    },
+    "length_evolution": {
+      "codetorso": {
+        "2025-02": 7.94,
+        "2025-03": 7.17,
+        "2025-04": 7.15,
+        "2025-05": 6.72,
+        "2025-06": 9.1,
+        "2025-07": 11.16,
+        "2025-08": 8.84,
+        "2025-09": 14.57,
+        "2025-10": 5.8,
+        "2025-11": 13.7,
+        "2025-12": 7.33,
+        "2026-01": 20.75,
+        "2026-02": 12.06
+      },
+      "forthatredditguy": {
+        "2025-02": 8.69,
+        "2025-03": 8.92,
+        "2025-04": 6.18,
+        "2025-05": 5.65,
+        "2025-06": 7.53,
+        "2025-07": 8.81,
+        "2025-08": 8.25,
+        "2025-09": 10.9,
+        "2025-10": 8.5,
+        "2025-11": 12.41,
+        "2025-12": 8.97,
+        "2026-01": 5.6,
+        "2026-02": 12.52
+      }
+    },
+    "style_evolution": {
+      "codetorso": {
+        "2025-02": {
+          "slang_per_msg": 0.154,
+          "emoji_per_msg": 0.034,
+          "profanity_per_msg": 0.014
+        },
+        "2025-03": {
+          "slang_per_msg": 0.146,
+          "emoji_per_msg": 0.056,
+          "profanity_per_msg": 0.016
+        },
+        "2025-04": {
+          "slang_per_msg": 0.133,
+          "emoji_per_msg": 0.054,
+          "profanity_per_msg": 0.025
+        },
+        "2025-05": {
+          "slang_per_msg": 0.122,
+          "emoji_per_msg": 0.037,
+          "profanity_per_msg": 0.021
+        },
+        "2025-06": {
+          "slang_per_msg": 0.168,
+          "emoji_per_msg": 0.044,
+          "profanity_per_msg": 0.037
+        },
+        "2025-07": {
+          "slang_per_msg": 0.211,
+          "emoji_per_msg": 0.053,
+          "profanity_per_msg": 0.045
+        },
+        "2025-08": {
+          "slang_per_msg": 0.222,
+          "emoji_per_msg": 0.047,
+          "profanity_per_msg": 0.024
+        },
+        "2025-09": {
+          "slang_per_msg": 0.243,
+          "emoji_per_msg": 0.086,
+          "profanity_per_msg": 0.071
+        },
+        "2025-10": {
+          "slang_per_msg": 0.2,
+          "emoji_per_msg": 0.2,
+          "profanity_per_msg": 0.0
+        },
+        "2025-11": {
+          "slang_per_msg": 0.194,
+          "emoji_per_msg": 0.013,
+          "profanity_per_msg": 0.049
+        },
+        "2025-12": {
+          "slang_per_msg": 0.037,
+          "emoji_per_msg": 0.037,
+          "profanity_per_msg": 0.074
+        },
+        "2026-01": {
+          "slang_per_msg": 1.0,
+          "emoji_per_msg": 0.0,
+          "profanity_per_msg": 0.25
+        },
+        "2026-02": {
+          "slang_per_msg": 0.24,
+          "emoji_per_msg": 0.023,
+          "profanity_per_msg": 0.103
+        }
+      },
+      "forthatredditguy": {
+        "2025-02": {
+          "slang_per_msg": 0.315,
+          "emoji_per_msg": 0.037,
+          "profanity_per_msg": 0.064
+        },
+        "2025-03": {
+          "slang_per_msg": 0.254,
+          "emoji_per_msg": 0.083,
+          "profanity_per_msg": 0.059
+        },
+        "2025-04": {
+          "slang_per_msg": 0.199,
+          "emoji_per_msg": 0.023,
+          "profanity_per_msg": 0.034
+        },
+        "2025-05": {
+          "slang_per_msg": 0.108,
+          "emoji_per_msg": 0.013,
+          "profanity_per_msg": 0.051
+        },
+        "2025-06": {
+          "slang_per_msg": 0.203,
+          "emoji_per_msg": 0.058,
+          "profanity_per_msg": 0.042
+        },
+        "2025-07": {
+          "slang_per_msg": 0.208,
+          "emoji_per_msg": 0.111,
+          "profanity_per_msg": 0.094
+        },
+        "2025-08": {
+          "slang_per_msg": 0.196,
+          "emoji_per_msg": 0.09,
+          "profanity_per_msg": 0.05
+        },
+        "2025-09": {
+          "slang_per_msg": 0.156,
+          "emoji_per_msg": 0.222,
+          "profanity_per_msg": 0.044
+        },
+        "2025-10": {
+          "slang_per_msg": 0.0,
+          "emoji_per_msg": 0.4,
+          "profanity_per_msg": 0.0
+        },
+        "2025-11": {
+          "slang_per_msg": 0.243,
+          "emoji_per_msg": 0.076,
+          "profanity_per_msg": 0.095
+        },
+        "2025-12": {
+          "slang_per_msg": 0.139,
+          "emoji_per_msg": 0.139,
+          "profanity_per_msg": 0.056
+        },
+        "2026-01": {
+          "slang_per_msg": 0.0,
+          "emoji_per_msg": 0.167,
+          "profanity_per_msg": 0.0
+        },
+        "2026-02": {
+          "slang_per_msg": 0.252,
+          "emoji_per_msg": 0.099,
+          "profanity_per_msg": 0.091
+        }
+      }
+    },
+    "alive_checks": {
+      "forthatredditguy": 75,
+      "codetorso": 50
+    },
+    "self_corrections": {
+      "forthatredditguy": 65,
+      "codetorso": 15
+    },
+    "common_conversation_starters": [
+      [
+        "you",
+        50
+      ],
+      [
+        "the",
+        38
+      ],
+      [
+        "this",
+        25
+      ],
+      [
+        "that",
+        20
+      ],
+      [
+        "just",
+        19
+      ],
+      [
+        "was",
+        18
+      ],
+      [
+        "what",
+        17
+      ],
+      [
+        "for",
+        15
+      ],
+      [
+        "your",
+        14
+      ],
+      [
+        "got",
+        13
+      ],
+      [
+        "are",
+        12
+      ],
+      [
+        "how",
+        11
+      ],
+      [
+        "bro",
+        11
+      ],
+      [
+        "think",
+        11
+      ],
+      [
+        "like",
+        11
+      ],
+      [
+        "have",
+        9
+      ],
+      [
+        "dont",
+        8
+      ],
+      [
+        "did",
+        8
+      ],
+      [
+        "hey",
+        8
+      ],
+      [
+        "there",
+        7
+      ]
+    ],
+    "message_density": {
+      "codetorso": {
+        "avg_msgs_per_active_hour": 14.31,
+        "max_msgs_in_single_hour": 116,
+        "median_msgs_per_active_hour": 4
+      },
+      "forthatredditguy": {
+        "avg_msgs_per_active_hour": 11.97,
+        "max_msgs_in_single_hour": 99,
+        "median_msgs_per_active_hour": 3.0
+      }
+    },
+    "weekend_behavior": {
+      "codetorso": {
+        "weekend_msgs": 2565,
+        "weekday_msgs": 3862,
+        "weekend_avg_words": 8.59,
+        "weekday_avg_words": 8.66,
+        "writes_more_on": "weekend"
+      },
+      "forthatredditguy": {
+        "weekend_msgs": 2065,
+        "weekday_msgs": 3296,
+        "weekend_avg_words": 8.42,
+        "weekday_avg_words": 8.68,
+        "writes_more_on": "weekend"
+      }
+    },
+    "milestones": [
+      {
+        "event": "First message ever",
+        "date": "2025-02-01 20:37",
+        "by": "codetorso",
+        "content": "hi"
+      },
+      {
+        "event": "Longest conversation (542 messages)",
+        "date": "2025-02-01 20:37",
+        "duration_hours": 4.2
+      },
+      {
+        "event": "Most active day (665 messages)",
+        "date": "2025-03-02"
+      },
+      {
+        "event": "1,000th message",
+        "date": "2025-02-03 02:37",
+        "by": "forthatredditguy"
+      },
+      {
+        "event": "5,000th message",
+        "date": "2025-03-12 11:43",
+        "by": "codetorso"
+      },
+      {
+        "event": "10,000th message",
+        "date": "2025-08-22 10:24",
+        "by": "forthatredditguy"
+      }
+    ],
+    "agreement_score": {
+      "codetorso": {
+        "agreements": 535,
+        "disagreements": 680,
+        "ratio": 0.79,
+        "agreement_pct": 44.03
+      },
+      "forthatredditguy": {
+        "agreements": 499,
+        "disagreements": 530,
+        "ratio": 0.94,
+        "agreement_pct": 48.49
+      }
+    },
+    "energy_levels": {
+      "avg_energy": 10.71,
+      "max_energy_session": {
+        "date": "2025-03-08",
+        "energy": 22.87,
+        "msgs_per_min": 3.43,
+        "avg_words": 6.7,
+        "session_length": 100
+      },
+      "min_energy_session": {
+        "date": "2026-02-28",
+        "energy": 0.35,
+        "msgs_per_min": 0.09,
+        "avg_words": 3.8,
+        "session_length": 5
+      }
+    },
+    "conversation_balance": {
+      "avg_balance": 0.822,
+      "median_balance": 0.8605,
+      "perfectly_balanced_sessions": 86,
+      "one_sided_sessions": 1,
+      "interpretation": "well-balanced"
+    },
+    "friendship_strength_index": {
+      "score": 0.6495,
+      "out_of": 1.0,
+      "grade": "B",
+      "factors": {
+        "consistency": 0.4847,
+        "volume": 0.7859,
+        "balance": 0.822,
+        "session_diversity": 0.954,
+        "conversation_depth": 0.4119
+      }
+    }
+  }
+}

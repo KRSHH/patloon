@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATLOG // DECODED — codetorso × forthatredditguy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Sora:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ═══ HERO ═══ -->
+    <header class="hero">
+        <div class="hero-grain"></div>
+        <div class="hero-glow glow-a"></div>
+        <div class="hero-glow glow-b"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">CHATLOG // DECODED</p>
+            <h1 class="hero-title">codetorso <span class="x">×</span> forthatredditguy</h1>
+            <p class="hero-sub">11,788 messages dissected across 391 days — 100 metrics, one friendship.</p>
+            <div class="hero-stats">
+                <div class="hero-stat"><span class="hs-num" data-count="11788">0</span><span
+                        class="hs-label">Messages</span></div>
+                <div class="hero-stat"><span class="hs-num" data-count="101469">0</span><span
+                        class="hs-label">Words</span></div>
+                <div class="hero-stat"><span class="hs-num" data-count="391">0</span><span class="hs-label">Days</span>
+                </div>
+                <div class="hero-stat"><span class="hs-num" data-count="477">0</span><span
+                        class="hs-label">Sessions</span></div>
+            </div>
+        </div>
+        <div class="scroll-cue">↓ Scroll to explore</div>
+    </header>
+
+    <!-- ═══ FRIENDSHIP INDEX ═══ -->
+    <section class="section" id="friendship">
+        <h2 class="section-title"><span class="icon">🏆</span> Friendship Strength Index</h2>
+        <div class="fsi-card">
+            <div class="fsi-score-wrap">
+                <canvas id="fsiGauge" width="260" height="260"></canvas>
+                <div class="fsi-grade">B</div>
+            </div>
+            <div class="fsi-factors">
+                <div class="factor"><span class="f-label">Consistency</span>
+                    <div class="f-bar">
+                        <div class="f-fill" style="--w:48.47%;" data-color="a"></div>
+                    </div><span class="f-val">0.485</span>
+                </div>
+                <div class="factor"><span class="f-label">Volume</span>
+                    <div class="f-bar">
+                        <div class="f-fill" style="--w:78.59%;" data-color="b"></div>
+                    </div><span class="f-val">0.786</span>
+                </div>
+                <div class="factor"><span class="f-label">Balance</span>
+                    <div class="f-bar">
+                        <div class="f-fill" style="--w:82.2%;" data-color="c"></div>
+                    </div><span class="f-val">0.822</span>
+                </div>
+                <div class="factor"><span class="f-label">Session Diversity</span>
+                    <div class="f-bar">
+                        <div class="f-fill" style="--w:95.4%;" data-color="d"></div>
+                    </div><span class="f-val">0.954</span>
+                </div>
+                <div class="factor"><span class="f-label">Conversation Depth</span>
+                    <div class="f-bar">
+                        <div class="f-fill" style="--w:41.19%;" data-color="e"></div>
+                    </div><span class="f-val">0.412</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ MESSAGE SPLIT ═══ -->
+    <section class="section" id="split">
+        <h2 class="section-title"><span class="icon">📊</span> Who Talks More?</h2>
+        <div class="grid-2">
+            <div class="card user-card user-a">
+                <div class="uc-avatar">CT</div>
+                <h3>codetorso</h3>
+                <div class="uc-big">6,427</div>
+                <p class="uc-sub">messages (54.5%)</p>
+                <div class="uc-row"><span>Words</span><strong>55,467</strong></div>
+                <div class="uc-row"><span>Avg words/msg</span><strong>8.63</strong></div>
+                <div class="uc-row"><span>Questions asked</span><strong>1,177</strong></div>
+                <div class="uc-row"><span>Links shared</span><strong>194</strong></div>
+                <div class="uc-row"><span>Attachments</span><strong>171</strong></div>
+                <div class="uc-row"><span>Reactions received</span><strong>139</strong></div>
+            </div>
+            <div class="card user-card user-b">
+                <div class="uc-avatar">FR</div>
+                <h3>forthatredditguy</h3>
+                <div class="uc-big">5,361</div>
+                <p class="uc-sub">messages (45.5%)</p>
+                <div class="uc-row"><span>Words</span><strong>46,002</strong></div>
+                <div class="uc-row"><span>Avg words/msg</span><strong>8.58</strong></div>
+                <div class="uc-row"><span>Questions asked</span><strong>766</strong></div>
+                <div class="uc-row"><span>Links shared</span><strong>196</strong></div>
+                <div class="uc-row"><span>Attachments</span><strong>443</strong></div>
+                <div class="uc-row"><span>Reactions received</span><strong>63</strong></div>
+            </div>
+        </div>
+        <div class="card" style="margin-top:2rem;">
+            <h3 class="card-title">Message Share</h3>
+            <canvas id="shareDonut" height="220"></canvas>
+        </div>
+    </section>
+
+    <!-- ═══ MONTHLY VOLUME ═══ -->
+    <section class="section" id="monthly">
+        <h2 class="section-title"><span class="icon">📈</span> Monthly Activity</h2>
+        <div class="card"><canvas id="monthlyChart" height="300"></canvas></div>
+    </section>
+
+    <!-- ═══ HOURLY HEATMAP ═══ -->
+    <section class="section" id="hourly">
+        <h2 class="section-title"><span class="icon">⏰</span> When Do You Chat?</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3 class="card-title">Hourly Distribution</h3><canvas id="hourlyBar" height="280"></canvas>
+            </div>
+            <div class="card">
+                <h3 class="card-title">Day of Week</h3><canvas id="dowBar" height="280"></canvas>
+            </div>
+        </div>
+        <div class="card" style="margin-top:2rem;">
+            <h3 class="card-title">Time Personality</h3>
+            <div class="grid-2" style="gap:1.5rem;">
+                <div class="tp-card">
+                    <div class="tp-user">codetorso</div>
+                    <div class="tp-type">🌙 NIGHT OWL</div>
+                    <div class="tp-bars">
+                        <div class="tp-row"><span>Morning</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill" style="width:9.3%"></div>
+                            </div><span>9.3%</span>
+                        </div>
+                        <div class="tp-row"><span>Afternoon</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill" style="width:14.7%"></div>
+                            </div><span>14.7%</span>
+                        </div>
+                        <div class="tp-row"><span>Evening</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill" style="width:36.6%"></div>
+                            </div><span>36.6%</span>
+                        </div>
+                        <div class="tp-row"><span>Night</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill tp-peak" style="width:39.3%"></div>
+                            </div><span>39.3%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-card">
+                    <div class="tp-user">forthatredditguy</div>
+                    <div class="tp-type">🌙 NIGHT OWL</div>
+                    <div class="tp-bars">
+                        <div class="tp-row"><span>Morning</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill" style="width:9.2%"></div>
+                            </div><span>9.2%</span>
+                        </div>
+                        <div class="tp-row"><span>Afternoon</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill" style="width:15.4%"></div>
+                            </div><span>15.4%</span>
+                        </div>
+                        <div class="tp-row"><span>Evening</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill" style="width:35.4%"></div>
+                            </div><span>35.4%</span>
+                        </div>
+                        <div class="tp-row"><span>Night</span>
+                            <div class="tp-bar">
+                                <div class="tp-fill tp-peak" style="width:40%"></div>
+                            </div><span>40.0%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ RESPONSE TIME ═══ -->
+    <section class="section" id="response">
+        <h2 class="section-title"><span class="icon">⚡</span> Response Speed</h2>
+        <div class="grid-2">
+            <div class="card resp-card">
+                <div class="rc-user">codetorso</div>
+                <div class="rc-big">58.7<span class="rc-unit">sec avg</span></div>
+                <div class="rc-row"><span>Median</span><strong>29.7s</strong></div>
+                <div class="rc-row"><span>Under 10s</span><strong>478</strong></div>
+                <div class="rc-row"><span>Under 1min</span><strong>2,478</strong></div>
+                <div class="rc-row"><span>Total responses</span><strong>3,194</strong></div>
+            </div>
+            <div class="card resp-card">
+                <div class="rc-user">forthatredditguy</div>
+                <div class="rc-big">56.8<span class="rc-unit">sec avg</span></div>
+                <div class="rc-row"><span>Median</span><strong>30.0s</strong></div>
+                <div class="rc-row"><span>Under 10s</span><strong>544</strong></div>
+                <div class="rc-row"><span>Under 1min</span><strong>2,454</strong></div>
+                <div class="rc-row"><span>Total responses</span><strong>3,178</strong></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ TOPICS ═══ -->
+    <section class="section" id="topics">
+        <h2 class="section-title"><span class="icon">💡</span> What Do You Talk About?</h2>
+        <div class="card"><canvas id="topicRadar" height="350"></canvas></div>
+    </section>
+
+    <!-- ═══ SENTIMENT ═══ -->
+    <section class="section" id="sentiment">
+        <h2 class="section-title"><span class="icon">😊</span> Sentiment Over Time</h2>
+        <div class="card"><canvas id="sentimentLine" height="280"></canvas></div>
+        <div class="grid-2" style="margin-top:2rem;">
+            <div class="card mini-stat">
+                <div class="ms-label">codetorso Sentiment</div>
+                <div class="ms-val positive">+0.316 <span>POSITIVE</span></div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">forthatredditguy Sentiment</div>
+                <div class="ms-val neutral">−0.001 <span>NEUTRAL</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ VOCABULARY ═══ -->
+    <section class="section" id="vocab">
+        <h2 class="section-title"><span class="icon">📝</span> Vocabulary & Language</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3 class="card-title">Top Words — codetorso</h3><canvas id="wordsA" height="280"></canvas>
+            </div>
+            <div class="card">
+                <h3 class="card-title">Top Words — forthatredditguy</h3><canvas id="wordsB" height="280"></canvas>
+            </div>
+        </div>
+        <div class="grid-3" style="margin-top:2rem;">
+            <div class="card mini-stat">
+                <div class="ms-label">Unique Vocab (CT)</div>
+                <div class="ms-val">5,446</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Unique Vocab (FR)</div>
+                <div class="ms-val">6,639</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Jaccard Similarity</div>
+                <div class="ms-val">0.333</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Vocab Richness (CT)</div>
+                <div class="ms-val">0.100</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Vocab Richness (FR)</div>
+                <div class="ms-val">0.148</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Formality</div>
+                <div class="ms-val">INFORMAL</div>
+            </div>
+        </div>
+        <div class="card" style="margin-top:2rem;">
+            <h3 class="card-title">Vocabulary Growth</h3><canvas id="vocabGrowth" height="250"></canvas>
+        </div>
+    </section>
+
+    <!-- ═══ BEHAVIOR ═══ -->
+    <section class="section" id="behavior">
+        <h2 class="section-title"><span class="icon">🧠</span> Behavioral Patterns</h2>
+        <div class="grid-3">
+            <div class="card mini-stat">
+                <div class="ms-label">Sessions Initiated (CT)</div>
+                <div class="ms-val">204 <span>42.8%</span></div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Sessions Initiated (FR)</div>
+                <div class="ms-val">273 <span>57.2%</span></div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Longest Streak</div>
+                <div class="ms-val">13 <span>days</span></div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Dead Days</div>
+                <div class="ms-val">203 <span>51.6%</span></div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Longest Gap</div>
+                <div class="ms-val">24.8 <span>days</span></div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Marathon Sessions (200+)</div>
+                <div class="ms-val">11</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Monologues (CT)</div>
+                <div class="ms-val">160</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Monologues (FR)</div>
+                <div class="ms-val">38</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Conversation Balance</div>
+                <div class="ms-val positive">0.822</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Laughter (CT)</div>
+                <div class="ms-val">263</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Laughter (FR)</div>
+                <div class="ms-val">368</div>
+            </div>
+            <div class="card mini-stat">
+                <div class="ms-label">Alive Checks (Both)</div>
+                <div class="ms-val">125</div>
+            </div>
+        </div>
+        <div class="card" style="margin-top:2rem;">
+            <h3 class="card-title">Engagement Comparison</h3><canvas id="engagementBar" height="250"></canvas>
+        </div>
+    </section>
+
+    <!-- ═══ MILESTONES ═══ -->
+    <section class="section" id="milestones">
+        <h2 class="section-title"><span class="icon">📌</span> Relationship Milestones</h2>
+        <div class="timeline">
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <div class="tl-date">Feb 1, 2025</div>
+                    <div class="tl-event">First message ever — <em>"hi"</em> by codetorso</div>
+                </div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <div class="tl-date">Feb 1, 2025</div>
+                    <div class="tl-event">Longest single conversation — 542 messages in 4.2 hours</div>
+                </div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <div class="tl-date">Feb 3, 2025</div>
+                    <div class="tl-event">1,000th message — by forthatredditguy</div>
+                </div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <div class="tl-date">Mar 2, 2025</div>
+                    <div class="tl-event">Most active day — 665 messages in one day</div>
+                </div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <div class="tl-date">Mar 12, 2025</div>
+                    <div class="tl-event">5,000th message — by codetorso</div>
+                </div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <div class="tl-date">Aug 22, 2025</div>
+                    <div class="tl-event">10,000th message — by forthatredditguy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ PRONOUN ═══ -->
+    <section class="section" id="pronoun">
+        <h2 class="section-title"><span class="icon">🗣️</span> Pronoun & Profanity Analysis</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3 class="card-title">Pronoun Usage</h3><canvas id="pronounBar" height="260"></canvas>
+            </div>
+            <div class="card">
+                <h3 class="card-title">Profanity Breakdown</h3><canvas id="profanityBar" height="260"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>CHATLOG // DECODED — generated from 100 metrics analysis</p>
+        <p class="footer-sub">codetorso × forthatredditguy · Feb 2025 – Feb 2026</p>
+    </footer>
+
+    <script src="charts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,602 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║       ██████╗ ██╗  ██╗ █████╗ ████████╗██╗      ██████╗  ██████╗           ║
+║      ██╔════╝ ██║  ██║██╔══██╗╚══██╔══╝██║     ██╔═══██╗██╔════╝           ║
+║      ██║      ███████║███████║   ██║   ██║     ██║   ██║██║  ███╗          ║
+║      ██║      ██╔══██║██╔══██║   ██║   ██║     ██║   ██║██║   ██║          ║
+║      ╚██████╗ ██║  ██║██║  ██║   ██║   ███████╗╚██████╔╝╚██████╔╝          ║
+║       ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝          ║
+║                                                                            ║
+║              M E G A   A N A L Y Z E R   R E P O R T                      ║
+║                       100 Metrics Edition                                  ║
+║                                                                            ║
+║  Generated:  2026-02-28 20:36:03                                    ║
+║  Analysis Time:   3.86 seconds                                        ║
+║  Total Messages Analyzed: 11,788                                     ║
+║                                                                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+📊 BASIC METRICS (Metrics #1-25)
+================================================================================
+
+#1  Total Messages:           11,788
+#2  Messages Per User:
+      codetorso                : 6,427
+      forthatredditguy         : 5,361
+#3  Message Share:
+      codetorso                : 54.52%
+      forthatredditguy         : 45.48%
+
+#4  Total Words:              101,469
+#5  Words Per User:
+      codetorso                : 55,467
+      forthatredditguy         : 46,002
+#6  Word Share:
+      codetorso                : 54.66%
+      forthatredditguy         : 45.34%
+
+#7  Total Characters:         544,866
+#8  Characters Per User:
+      codetorso                : 292,755
+      forthatredditguy         : 252,111
+
+#9  Avg Message Length (words):
+      codetorso                : 8.63
+      forthatredditguy         : 8.58
+      overall                  : 8.61
+#10 Avg Message Length (chars):
+      codetorso                : 45.55
+      forthatredditguy         : 47.03
+#11 Median Message Length (words):
+      codetorso                : 6
+      forthatredditguy         : 7
+
+#12 Longest Message (words):
+      codetorso                : 268 words on 2025-06-07 11:52
+        Preview: "boy wrote all the little school stories
+```
+Mathematician: How to write 4 in between a 5?
+
+China: Is..."
+      forthatredditguy         : 312 words on 2025-03-24 02:57
+        Preview: "My name is… well, online I'm codetorso. And this… this is my confession. If you're seeing this, my b..."
+#13 Longest Message (chars):
+      codetorso                : 1510 chars on 2025-06-07 11:52
+      forthatredditguy         : 1827 chars on 2025-03-24 02:57
+
+#14 Long Messages (>200 chars):
+      codetorso                : 113
+      forthatredditguy         : 62
+#15 Short Messages (<=10 chars):
+      codetorso                : 869
+      forthatredditguy         : 821
+#16 One-Word Messages:
+      codetorso                : 672
+      forthatredditguy         : 724
+#17 Empty Messages (media only):
+      codetorso                : 34
+      forthatredditguy         : 192
+#18 Multi-Line Messages:
+      codetorso                : 278
+      forthatredditguy         : 643
+#19 Avg Lines Per Message:
+      codetorso                : 1.12
+      forthatredditguy         : 1.2
+#20 StdDev Message Length (words):
+      codetorso                : 10.66
+      forthatredditguy         : 11.23
+
+#21 Chat Duration:            391 days (2025-02-01 → 2026-02-28)
+#22 Active Days:              190
+    Msgs/Active Day:          62.04
+    Msgs/Calendar Day:        30.07
+#23 Active Days %:            48.47%
+#24 Words/Active Day:         534.05
+
+#25 Dominance Score:
+      Score:           0.0904 (balanced)
+      Dominant User:   codetorso
+      Ratio:           6427:5361
+
+
+================================================================================
+⏰ TEMPORAL METRICS (Metrics #26-50)
+================================================================================
+
+#26 Most Active Hour:         0:00 (1,734 messages)
+      codetorso                : 0:00 (943 msgs)
+      forthatredditguy         : 0:00 (791 msgs)
+#27 Most Active Day:          Saturday (2,568 messages)
+    Day Distribution:
+      Monday      :  1330 ██████████████████████████
+      Tuesday     :  1212 ████████████████████████
+      Wednesday   :  1228 ████████████████████████
+      Thursday    :  1731 ██████████████████████████████████
+      Friday      :  1657 █████████████████████████████████
+      Saturday    :  2568 ███████████████████████████████████████████████████
+      Sunday      :  2062 █████████████████████████████████████████
+#28 Most Active Single Day:   2025-03-02 (665 messages)
+#29 Most Active Month:        2025-02 (3,655 messages)
+
+#30 Monthly Trend:
+      2025-02:  3655 msgs (→ 0.0%)
+      2025-03:  3204 msgs (↓ 12.3%)
+      2025-04:   582 msgs (↓ 81.8%)
+      2025-05:   347 msgs (↓ 40.4%)
+      2025-06:   836 msgs (↑ 140.9%)
+      2025-07:   625 msgs (↓ 25.2%)
+      2025-08:   842 msgs (↑ 34.7%)
+      2025-09:   115 msgs (↓ 86.3%)
+      2025-10:    10 msgs (↓ 91.3%)
+      2025-11:   708 msgs (↑ 6980.0%)
+      2025-12:    63 msgs (↓ 91.1%)
+      2026-01:    10 msgs (↓ 84.1%)
+      2026-02:   791 msgs (↑ 7810.0%)
+
+#31 Weekend vs Weekday:
+      Weekend: 4,630 msgs (39.28%), avg 82.68/day
+      Weekday: 7,158 msgs (60.72%), avg 53.42/day
+
+#32 Night Owl Score (12am-6am):
+      codetorso                : 2529 msgs (39.35%)
+      forthatredditguy         : 2147 msgs (40.05%)
+#33 Late Night Messages (12am-4am):
+      codetorso                : 2316
+      forthatredditguy         : 1957
+
+#34 Peak Time Window:         00:00-03:00
+#35 Longest Streak:           13 consecutive days (2025-02-21 → 2025-03-05)
+#36 Longest Gap:              24.8 days (2025-05-08 16:57 → 2025-06-02 11:14)
+      Broke silence:          codetorso
+
+#37 Avg Gap Between Messages:  47.89 min (median: 0.41 min)
+#38 Daily Initiator:
+      codetorso                : 89 times
+      forthatredditguy         : 101 times
+#39 Daily Closer:
+      codetorso                : 74 times
+      forthatredditguy         : 116 times
+
+#40 Sessions: 477
+    Avg Duration:             34.43 min
+    Max Duration:             268.06 min
+#41 Avg Msgs/Session:         24.71
+    Max Msgs/Session:         542
+
+#45 Most Active Week:         2025-W06 (1553 msgs)
+#46 Dead Days:                203 (51.65%)
+
+#47 Quarterly Activity:
+      2025-Q1: 6,859 msgs
+      2025-Q2: 1,765 msgs
+      2025-Q3: 1,582 msgs
+      2025-Q4: 781 msgs
+      2026-Q1: 801 msgs
+#48 Avg Daily Convo Span:     10.77 hours
+
+#49 codetorso Time Personality:  NIGHT
+      Morning (6-12):  9.3%
+      Afternoon (12-18): 14.7%
+      Evening (18-24): 36.6%
+      Night (0-6):     39.3%
+
+#49 forthatredditguy Time Personality:  NIGHT
+      Morning (6-12):  9.2%
+      Afternoon (12-18): 15.4%
+      Evening (18-24): 35.4%
+      Night (0-6):     40.0%
+
+
+================================================================================
+📝 TEXT ANALYSIS METRICS (Metrics #51-70)
+================================================================================
+
+#51 Top 30 Words Overall:
+      like                : 667
+      dont                : 485
+      even                : 434
+      get                 : 430
+      one                 : 415
+      yeah                : 328
+      think               : 305
+      know                : 297
+      good                : 292
+      people              : 280
+      lol                 : 266
+      got                 : 265
+      time                : 240
+      go                  : 203
+      also                : 199
+      something           : 197
+      make                : 194
+      need                : 183
+      much                : 182
+      any                 : 180
+      thats               : 180
+      still               : 176
+      see                 : 174
+      thing               : 173
+      shit                : 170
+      well                : 161
+      work                : 157
+      guy                 : 157
+      bro                 : 156
+      want                : 155
+
+#52 Top 20 Words Per User:
+    codetorso:
+      like                : 441
+      get                 : 296
+      one                 : 263
+      dont                : 234
+      even                : 233
+      yeah                : 206
+      good                : 203
+      think               : 189
+      know                : 168
+      also                : 166
+      time                : 158
+      got                 : 157
+      people              : 148
+      need                : 146
+      something           : 136
+      see                 : 125
+      want                : 123
+      go                  : 119
+      going               : 114
+      bro                 : 114
+    forthatredditguy:
+      dont                : 251
+      like                : 226
+      lol                 : 210
+      even                : 201
+      one                 : 152
+      yup                 : 137
+      get                 : 134
+      people              : 132
+      know                : 129
+      yeah                : 122
+      thats               : 119
+      think               : 116
+      shit                : 109
+      any                 : 108
+      got                 : 108
+      way                 : 101
+      make                : 95
+      didnt               : 93
+      much                : 92
+      good                : 89
+
+#53 Unique Vocabulary Size:
+      codetorso                : 5,446 unique words (richness: 0.0995)
+      forthatredditguy         : 6,639 unique words (richness: 0.1476)
+
+#54 Hapax Legomena (words used exactly once):
+      codetorso                : 2684 (49.28% of unique)
+      forthatredditguy         : 3784 (57.0% of unique)
+#55 Average Word Length:
+      codetorso                : 4.06 chars
+      forthatredditguy         : 4.23 chars
+
+#56 Sentiment Score:
+      codetorso                : 0.3163 (positive) [+591/-307]
+      forthatredditguy         : -0.0013 (neutral) [+372/-373]
+
+#58 Question Frequency:
+      codetorso                : 1177 questions (18.31%)
+      forthatredditguy         : 766 questions (14.29%)
+
+#59 Slang Usage:
+      codetorso                : 1091 total (0.17/msg)
+        Top: yeah(206), bro(114), idk(80), man(73), ig(61)
+      forthatredditguy         : 1361 total (0.254/msg)
+        Top: lol(210), yup(137), yeah(122), wanna(87), gonna(84)
+
+#60 Profanity Usage:
+      codetorso                : 184 total (2.77% of msgs)
+        Top: shit(61), wtf(39), fucking(24), fuck(17), hell(11)
+      forthatredditguy         : 340 total (5.65% of msgs)
+        Top: shit(109), wtf(38), retarded(31), fucking(31), damn(31)
+
+#61 Topic Distribution:
+    codetorso:
+      money_finance       :   395 (17.82%) ████████
+      career_ambition     :   383 (17.28%) ████████
+      education           :   357 (16.11%) ████████
+      personal_life       :   338 (15.25%) ███████
+      programming         :   310 (13.99%) ██████
+      india_politics      :   242 (10.92%) █████
+      tech_industry       :   191 (8.62%) ████
+    forthatredditguy:
+      career_ambition     :   278 (17.89%) ████████
+      personal_life       :   274 (17.63%) ████████
+      money_finance       :   253 (16.28%) ████████
+      programming         :   244 (15.7%) ███████
+      education           :   244 (15.7%) ███████
+      india_politics      :   143 (9.2%) ████
+      tech_industry       :   118 (7.59%) ███
+
+#62 Capitalization Patterns:
+      codetorso                : 67.93% lowercase, 11 ALL CAPS msgs
+      forthatredditguy         : 26.25% lowercase, 5 ALL CAPS msgs
+
+#63 Punctuation:
+      codetorso                : !=  58  ?=1385  ...=33
+      forthatredditguy         : !=  101  ?=974  ...=402
+
+#64 Laughter Frequency:
+      codetorso                : 263 laughs (0.041/msg)
+      forthatredditguy         : 368 laughs (0.069/msg)
+
+#65 Pronoun Usage (I vs You):
+      codetorso                : I=1949 You=1138 We=162 [self-focused]
+      forthatredditguy         : I=1955 You=653 We=119 [self-focused]
+
+#66 Message Complexity (Flesch):
+      codetorso                : 78.18 (easy)
+      forthatredditguy         : 75.23 (easy)
+
+#67 Signature Phrases:
+    codetorso top bigrams:
+      "i am": 264
+      "i have": 119
+      "i will": 113
+      "i dont": 111
+      "i was": 106
+    codetorso top trigrams:
+      "a lot of": 52
+      "i want to": 31
+      "i dont think": 28
+      "i need to": 27
+      "i am not": 25
+    forthatredditguy top bigrams:
+      "i am": 274
+      "i dont": 121
+      "i was": 105
+      "do you": 89
+      "i have": 75
+    forthatredditguy top trigrams:
+      "thats why i": 29
+      "do you think": 29
+      "i am not": 22
+      "i dont know": 20
+      "what do you": 20
+
+#68 Exclusive Vocabulary:
+      codetorso                : 2310 exclusive words
+        Examples: 000045, 1000cr, 1000of, 1000s, 100200, 100b, 100cr, 100m, 100mn, 100ms, 100pages, 100s, 1015k, 1020l, 10395
+      forthatredditguy         : 3493 exclusive words
+        Examples: 0330, 0x820785dfb031919434faa2ca3c36a1dbff693484, 100100, 100th, 100x, 100yr, 1010, 1015hrs, 102, 10819, 109303, 10gb, 10hrs, 10yrs, 11089
+      Shared vocabulary:       2903
+      Jaccard similarity:      0.3334
+
+#70 Formality Score:
+      codetorso                : -0.9554 (informal)
+      forthatredditguy         : -0.9729 (informal)
+
+
+================================================================================
+💬 CONVERSATION FLOW METRICS (Metrics #71-85)
+================================================================================
+
+#71 Response Time:
+      forthatredditguy         :
+        Avg: 0.9 min | Median: 0.5 min
+        Min: 0s | Max: 28.3 min
+        Under 10s: 544 | Under 1min: 2454 | Under 5min: 3107
+      codetorso                :
+        Avg: 1.0 min | Median: 0.5 min
+        Min: 0s | Max: 29.7 min
+        Under 10s: 478 | Under 1min: 2478 | Under 5min: 3123
+
+#72 Session Initiator:
+      codetorso                : 204 sessions (42.77%)
+      forthatredditguy         : 273 sessions (57.23%)
+#73 Session Ender:
+      forthatredditguy         : 257 sessions
+      codetorso                : 220 sessions
+
+#74 Turn-Taking:
+      Total turns:  6711
+      Turn rate:    0.5694 (1.0 = perfect alternation)
+      codetorso                : avg 1.92 consecutive (max 16)
+      forthatredditguy         : avg 1.6 consecutive (max 8)
+
+#75 Monologues (5+ consecutive):
+      codetorso                : 160 monologues, avg 6.28 msgs, max 16
+      forthatredditguy         : 38 monologues, avg 5.61 msgs, max 8
+
+#76 Burst Messaging (<15s gap, 3+ msgs):
+      codetorso                : 352 bursts, avg 3.58 msgs
+      forthatredditguy         : 93 bursts, avg 3.31 msgs
+
+#77 Double/Triple Texting:
+      forthatredditguy         : 982 double, 424 triple+
+      codetorso                : 834 double, 765 triple+
+
+#78 Engagement Score:
+      codetorso                : 0.768 (resp=0.90, len=0.43, q=0.93)
+      forthatredditguy         : 0.722 (resp=0.91, len=0.43, q=0.77)
+
+#79 Session Depth:
+      Shallow (<10 msgs):    364
+      Medium (10-50):        44
+      Deep (50+):            69
+      Marathon (200+):       11
+
+#80 Echo/Mimicry:
+      codetorso                : 860 echo msgs (rate: 0.1338)
+      forthatredditguy         : 794 echo msgs (rate: 0.1481)
+
+#81 Greetings & Goodbyes:
+      codetorso                : 32 greetings, 162 goodbyes
+      forthatredditguy         : 12 greetings, 123 goodbyes
+
+#82 Link Sharing:
+      codetorso                : 194 links (0.0302/msg)
+      forthatredditguy         : 196 links (0.0366/msg)
+#83 Attachment Sharing:
+      codetorso                : 171 attachments in 170 msgs
+      forthatredditguy         : 443 attachments in 425 msgs
+
+#84 Reactions Received:
+      forthatredditguy         : 63 reactions received
+      codetorso                : 139 reactions received
+#85 Pinned Messages:
+      codetorso                : 5 pins
+      forthatredditguy         : 1 pins
+
+
+================================================================================
+🧠 BEHAVIORAL METRICS (Metrics #86-100)
+================================================================================
+
+#86 Ghost Events (>6h silence):
+      forthatredditguy         : 77 times (avg 21.5h, max 167.2h)
+        2025-10-30: 167.2h - "10k downloads thats kinda amazing"
+        2025-06-10: 165.7h - "https://tenor.com/view/blackbeard-blackbeard-writing-taking-"
+        2026-01-22: 112.4h - "man I got so much to tell, but I got like no time, this fuck"
+      codetorso                : 82 times (avg 51.9h, max 594.3h)
+        2025-05-08: 594.3h - "(From me too)"
+        2025-09-20: 477.8h - "So what are you upto?"
+        2026-01-12: 258.5h - "Why do I only post bangers on my alts 😭
+
+https://x.com/i/sta"
+
+#87 Comeback Initiator (first after 4h+ break):
+      forthatredditguy         : 156 times
+      codetorso                : 117 times
+
+#88 Message Frequency Evolution (monthly):
+    codetorso:
+      2025-02:  2008 ████████████████████████████████████████████████████████████████████████████████████████████████████
+      2025-03:  1720 ██████████████████████████████████████████████████████████████████████████████████████
+      2025-04:   316 ███████████████
+      2025-05:   189 █████████
+      2025-06:   457 ██████████████████████
+      2025-07:   337 ████████████████
+      2025-08:   465 ███████████████████████
+      2025-09:    70 ███
+      2025-10:     5 
+      2025-11:   391 ███████████████████
+      2025-12:    27 █
+      2026-01:     4 
+      2026-02:   438 █████████████████████
+    forthatredditguy:
+      2025-02:  1647 ██████████████████████████████████████████████████████████████████████████████████
+      2025-03:  1484 ██████████████████████████████████████████████████████████████████████████
+      2025-04:   266 █████████████
+      2025-05:   158 ███████
+      2025-06:   379 ██████████████████
+      2025-07:   288 ██████████████
+      2025-08:   377 ██████████████████
+      2025-09:    45 ██
+      2025-10:     5 
+      2025-11:   317 ███████████████
+      2025-12:    36 █
+      2026-01:     6 
+      2026-02:   353 █████████████████
+
+#89 Message Length Evolution (avg words/msg by month):
+    codetorso:
+      2025-02: 7.9 words/msg
+      2025-03: 7.2 words/msg
+      2025-04: 7.2 words/msg
+      2025-05: 6.7 words/msg
+      2025-06: 9.1 words/msg
+      2025-07: 11.2 words/msg
+      2025-08: 8.8 words/msg
+      2025-09: 14.6 words/msg
+      2025-10: 5.8 words/msg
+      2025-11: 13.7 words/msg
+      2025-12: 7.3 words/msg
+      2026-01: 20.8 words/msg
+      2026-02: 12.1 words/msg
+    forthatredditguy:
+      2025-02: 8.7 words/msg
+      2025-03: 8.9 words/msg
+      2025-04: 6.2 words/msg
+      2025-05: 5.7 words/msg
+      2025-06: 7.5 words/msg
+      2025-07: 8.8 words/msg
+      2025-08: 8.2 words/msg
+      2025-09: 10.9 words/msg
+      2025-10: 8.5 words/msg
+      2025-11: 12.4 words/msg
+      2025-12: 9.0 words/msg
+      2026-01: 5.6 words/msg
+      2026-02: 12.5 words/msg
+
+#91 'Alive' Check Messages:
+      forthatredditguy         : 75 times
+      codetorso                : 50 times
+#92 Self-Corrections:
+      forthatredditguy         : 65
+      codetorso                : 15
+
+#93 Common Conversation Starters:
+      you                 : 50
+      the                 : 38
+      this                : 25
+      that                : 20
+      just                : 19
+      was                 : 18
+      what                : 17
+      for                 : 15
+      your                : 14
+      got                 : 13
+
+#94 Message Density (msgs/active hour):
+      codetorso                : avg 14.31/hr, max 116/hr
+      forthatredditguy         : avg 11.97/hr, max 99/hr
+
+#96 Relationship Milestones:
+      📌 First message ever
+         2025-02-01 20:37 codetorso
+      📌 Longest conversation (542 messages)
+         2025-02-01 20:37 
+      📌 Most active day (665 messages)
+         2025-03-02 
+      📌 1,000th message
+         2025-02-03 02:37 forthatredditguy
+      📌 5,000th message
+         2025-03-12 11:43 codetorso
+      📌 10,000th message
+         2025-08-22 10:24 forthatredditguy
+
+#97 Agreement Score:
+      codetorso                : 535 agrees, 680 disagrees (ratio 0.79)
+      forthatredditguy         : 499 agrees, 530 disagrees (ratio 0.94)
+
+#98 Energy Levels:
+      Avg Energy:    10.71
+      Max Energy:    22.87 on 2025-03-08
+
+#99 Conversation Balance:
+      Avg Balance:      0.822 (well-balanced)
+      Well-balanced:    86 sessions
+      One-sided:        1 sessions
+
+#100 🏆 FRIENDSHIP STRENGTH INDEX:
+      Score:            0.6495 / 1.0 (Grade: B)
+      Factors:
+        consistency           : 0.4847 █████████
+        volume                : 0.7859 ███████████████
+        balance               : 0.8220 ████████████████
+        session_diversity     : 0.9540 ███████████████████
+        conversation_depth    : 0.4119 ████████
+
+
+================================================================================
+📋 ANALYSIS SUMMARY
+================================================================================
+  Total metrics computed: 100
+  Total messages analyzed: 11,788
+  Date range: 2025-02-01 → 2026-02-28
+  Duration: 391 days
+  Active days: 190
+  Analysis completed in: 3.86 seconds
+
+  🏆 FRIENDSHIP STRENGTH INDEX: 0.6495/1.0 (Grade: B)
+================================================================================
